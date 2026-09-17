@@ -1,1 +1,29 @@
 /* Start coding here */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+}
+
+.welcome-card {
+  background-color: hsla(0, 50%, 100%, 0.5);
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-card h2 {
+  margin-top: 0;
+  color: #333;
+}
